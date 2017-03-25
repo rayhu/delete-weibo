@@ -91,8 +91,8 @@ function UI(){
         wrap    = document.createElement('div'),
         output  = document.createElement('div'),
         content    = '<h1>WARNING！！正在删除你的微博~！</h1><h2>后悔的话，马上按F5键，或者关闭本页面！</h2>',
-        layer_css  = 'opacity: 0.8;background: #000;position: fixed;width: 100%;height: 100%;top: 0;z-index: 99;padding-top: 100px;',
-        wrap_css   = 'margin:0 auto;color:#14FF00;width: 720px;height:405px;',
+        layer_css  = 'opacity: 0.8;background: #000;position: fixed;width: 20%;height: 20%;top: 0;z-index: 99;padding-top: 100px;',
+        wrap_css   = 'margin:0 auto;color:#14FF00;width: 120px;height:105px;',
         output_css = 'color:#14FF00;position: relative;bottom:-20%;margin: 36px 0 0 320px;';
                                
     layer.setAttribute('id','mask');
