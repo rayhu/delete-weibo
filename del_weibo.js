@@ -52,7 +52,9 @@ function main(next){
         clearInterval(onload_page);
     },1000);//可以适当调小一下这个数值。至于你的电脑会不会滚烂。。。我也不知道！ 
     var mids = [],
-        feed_lists = document.querySelectorAll("#Pl_Official_MyProfileFeed__22 > div > div.WB_feed.WB_feed_profile > div");
+        //feed_lists = document.querySelectorAll("#Pl_Official_MyProfileFeed__22 > div > div.WB_feed.WB_feed_profile > div");
+        feed_lists = document.querySelectorAll("#Pl_Official_MyProfileFeed__21 > div > div"); // 适应微博
+    
     // get whole page weibo_mid
     for(var i=0;i<feed_lists.length;i++){
         var mid = feed_lists[i].getAttribute("mid");
